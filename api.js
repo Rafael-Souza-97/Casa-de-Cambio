@@ -1,5 +1,3 @@
-const fetch = require('node-fetch');
-
 const BASE_URL = 'https://api.exchangerate.host'
 const LATEST_ENDPOINT = '/latest';
 
@@ -19,5 +17,4 @@ const fetchCurrency = async (currency) => {
     console.log(error);
   }
 };
-
-fetchCurrency('BRL').then((item) => console.log(item));
+fetchCurrency()
