@@ -17,4 +17,4 @@ const fetchCurrency = async (currency) => {
     console.log(error);
   }
 };
-fetchCurrency()
+fetchCurrency();
